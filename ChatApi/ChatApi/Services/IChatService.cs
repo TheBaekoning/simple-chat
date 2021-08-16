@@ -10,5 +10,6 @@ namespace ChatApi.Services
         public Task<ChatMessage> RetrieveMessageById(int id);
         public Task<IEnumerable<ChatMessage>> RetrieveAllMessagesByUser(string username);
         public Task<string> CreateNewMessage(ChatMessage chatMessage);
+        public Task<string> ExpireAllMessagesByUserAndTime(string username);
     }
 }
