@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using ChatApi.Model;
 using ChatApi.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
 
 
 namespace ChatApi.Controllers
